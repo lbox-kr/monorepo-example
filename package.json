@@ -6,6 +6,9 @@
     "apps/*",
     "packages/*"
   ],
+  "scripts": {
+    "dev:nextjs": "turbo run dev --filter=nextjs"
+  },
   "devDependencies": {
     "turbo": "^1.6.3"
   }

@@ -15875,6 +15875,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.18.11"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.10"],\
+            ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:c6e8f6219c502b701a567f35b2c52fce6c7e6a21db15969391dd070aea0b0b8eb1279043967ce235d019f42233de557665d36d648427428d0d0121848facee38#npm:18.2.0"],\
             ["react-scripts", "virtual:6b02f5cc5ced98bcd21bb5f24e7ce4dd1d2d547deaf8f36b906b2475b293401293d2e2c111dce46181dc0330af4afebc578dd3e91fd2814e63070eb093b1ed50#npm:5.0.1"],\

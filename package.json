@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "dev:nextjs": "turbo run dev --filter=nextjs",
-    "start:storybook": "turbo run start --filter=storybook"
+    "start:storybook": "turbo run start --filter=storybook",
+    "storybook": "turbo run storybook --filter=storybook"
   },
   "devDependencies": {
     "turbo": "^1.6.3"

@@ -20,6 +20,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:apps/nextjs"\
       },\
       {\
+        "name": "shared",\
+        "reference": "workspace:packages/shared"\
+      },\
+      {\
         "name": "storybook",\
         "reference": "workspace:packages/storybook"\
       }\
@@ -29,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "fallbackExclusionList": [\
       ["monorepo-example", ["workspace:."]],\
       ["nextjs", ["workspace:apps/nextjs"]],\
+      ["shared", ["workspace:packages/shared"]],\
       ["storybook", ["workspace:packages/storybook"]]\
     ],\
     "fallbackPool": [\
@@ -24588,6 +24593,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["kind-of", "npm:6.0.3"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["shared", [\
+        ["workspace:packages/shared", {\
+          "packageLocation": "./packages/shared/",\
+          "packageDependencies": [\
+            ["shared", "workspace:packages/shared"],\
+            ["@types/node", "npm:18.11.17"],\
+            ["eslint", "npm:8.30.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["shebang-command", [\

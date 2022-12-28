@@ -19844,6 +19844,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:c6e8f6219c502b701a567f35b2c52fce6c7e6a21db15969391dd070aea0b0b8eb1279043967ce235d019f42233de557665d36d648427428d0d0121848facee38#npm:13.1.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:c6e8f6219c502b701a567f35b2c52fce6c7e6a21db15969391dd070aea0b0b8eb1279043967ce235d019f42233de557665d36d648427428d0d0121848facee38#npm:18.2.0"],\
+            ["shared", "workspace:packages/shared"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "SOFT"\

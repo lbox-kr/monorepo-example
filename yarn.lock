@@ -13800,6 +13800,7 @@ __metadata:
     next: 13.1.1
     react: 18.2.0
     react-dom: 18.2.0
+    shared: "workspace:^"
     typescript: 4.9.4
   languageName: unknown
   linkType: soft
@@ -17331,7 +17332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shared@workspace:packages/shared":
+"shared@workspace:^, shared@workspace:packages/shared":
   version: 0.0.0-use.local
   resolution: "shared@workspace:packages/shared"
   dependencies:

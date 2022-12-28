@@ -1,4 +1,4 @@
-import { test } from '../../../packages/shared/src/const'
+import { test } from 'shared/src/const'
 
 export default function Home() {
   return (

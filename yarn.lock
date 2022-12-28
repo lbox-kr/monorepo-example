@@ -13801,6 +13801,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     shared: "workspace:^"
+    storybook: "workspace:^"
     typescript: 4.9.4
   languageName: unknown
   linkType: soft
@@ -17768,7 +17769,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook@workspace:packages/storybook":
+"storybook@workspace:^, storybook@workspace:packages/storybook":
   version: 0.0.0-use.local
   resolution: "storybook@workspace:packages/storybook"
   dependencies:

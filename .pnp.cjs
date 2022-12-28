@@ -19831,6 +19831,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["next-transpile-modules", [\
+        ["npm:10.0.0", {\
+          "packageLocation": "./.yarn/cache/next-transpile-modules-npm-10.0.0-35632e5048-3300fc7081.zip/node_modules/next-transpile-modules/",\
+          "packageDependencies": [\
+            ["next-transpile-modules", "npm:10.0.0"],\
+            ["enhanced-resolve", "npm:5.12.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["nextjs", [\
         ["workspace:apps/nextjs", {\
           "packageLocation": "./apps/nextjs/",\
@@ -19842,6 +19852,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.30.0"],\
             ["eslint-config-next", "virtual:c6e8f6219c502b701a567f35b2c52fce6c7e6a21db15969391dd070aea0b0b8eb1279043967ce235d019f42233de557665d36d648427428d0d0121848facee38#npm:13.1.1"],\
             ["next", "virtual:c6e8f6219c502b701a567f35b2c52fce6c7e6a21db15969391dd070aea0b0b8eb1279043967ce235d019f42233de557665d36d648427428d0d0121848facee38#npm:13.1.1"],\
+            ["next-transpile-modules", "npm:10.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6b02f5cc5ced98bcd21bb5f24e7ce4dd1d2d547deaf8f36b906b2475b293401293d2e2c111dce46181dc0330af4afebc578dd3e91fd2814e63070eb093b1ed50#npm:18.2.0"],\
             ["shared", "workspace:packages/shared"],\

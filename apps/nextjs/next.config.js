@@ -4,4 +4,8 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+const withTranspileModules = require('next-transpile-modules')([
+  'storybook',
+])
+
+module.exports = withTranspileModules(nextConfig)

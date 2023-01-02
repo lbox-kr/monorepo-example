@@ -9,6 +9,9 @@
     },
     "storybook": {
       "cache": false
+    },
+    "lint": {
+      "cache": false
     }
   }
 }

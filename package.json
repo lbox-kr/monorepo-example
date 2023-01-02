@@ -8,8 +8,10 @@
   ],
   "scripts": {
     "dev:nextjs": "turbo run dev --filter=nextjs",
+    "lint:nextjs": "yarn workspace nextjs lint",
     "start:storybook": "turbo run start --filter=storybook",
-    "storybook": "turbo run storybook --filter=storybook"
+    "storybook": "turbo run storybook --filter=storybook",
+    "lint:storybook": "yarn workspace storybook lint"
   },
   "devDependencies": {
     "eslint": "^8.30.0",

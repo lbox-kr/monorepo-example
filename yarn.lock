@@ -13987,7 +13987,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:13.1.1":
+"next@npm:*, next@npm:13.1.1":
   version: 13.1.1
   resolution: "next@npm:13.1.1"
   dependencies:
@@ -18531,6 +18531,13 @@ __metadata:
   peerDependencies:
     postcss: ^8.2.15
   checksum: 11175366ef52de65bf06cefba0ddc9db286dc3a1451fd2989e74c6ea47091a02329a4bf6ce10b1a36950056927b6bbbe47c5ab3a1f4c7032df932d010fbde5a2
+  languageName: node
+  linkType: hard
+
+"supports-color@npm:*":
+  version: 9.3.1
+  resolution: "supports-color@npm:9.3.1"
+  checksum: 00c4d1082a7ba0ee21cba1d4e4a466642635412e40476777b530aa5110d035e99a420cd048e1fb6811f2254c0946095fbb87a1eccf1af1d1ca45ab0a4535db93
   languageName: node
   linkType: hard
 

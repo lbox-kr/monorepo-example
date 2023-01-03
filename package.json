@@ -9,9 +9,11 @@
   "scripts": {
     "dev:nextjs": "turbo run dev --filter=nextjs",
     "lint:nextjs": "yarn workspace nextjs lint",
+    "prettier:nextjs": "yarn workspace nextjs prettier",
     "start:storybook": "turbo run start --filter=storybook",
     "storybook": "turbo run storybook --filter=storybook",
-    "lint:storybook": "yarn workspace storybook lint"
+    "lint:storybook": "yarn workspace storybook lint",
+    "prettier:storybook": "yarn workspace storybook prettier"
   },
   "devDependencies": {
     "eslint": "^8.30.0",

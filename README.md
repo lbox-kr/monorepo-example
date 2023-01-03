@@ -1,5 +1,6 @@
 # monorepo-example
 
+<img width="721" alt="Frame 1560" src="https://user-images.githubusercontent.com/8861810/210299627-4243873b-7691-4ff4-a78c-c32f32ee91d3.png">
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)

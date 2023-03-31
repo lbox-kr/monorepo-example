@@ -9,7 +9,7 @@
 
 LBox 프론트엔드 모노레포 예제 입니다.
 
-[LBox 기술 블로그 아티클 - 모노레포 구축기]()
+[LBox 기술 블로그 아티클 - 모노레포 구축기](https://medium.com/lbox-team/yarn-berry-turborepo-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-monorepo-%EA%B5%AC%EC%B6%95%EA%B8%B0-part-1-4fb510e55444)
 
 `git clone` 명령어로 프로젝트를 내려받으신 뒤에
 
